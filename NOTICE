@@ -1,0 +1,25 @@
+LifeLog × AX8860
+Copyright (c) 2026 BUG1989 (AX8860 adaptation)
+
+This project is derived from and inspired by lifelog-minicpm:
+
+  lifelog-minicpm
+  Copyright (c) 2026 leng
+  MIT License
+  https://github.com/lengjingxu/lifelog-minicpm
+
+The upstream project provides the original album ingestion, SQLite schema,
+caption/OCR/aggregation/profile/story/MCP/Web design. The AX8860 adaptation
+adds remote OpenAI-compatible model endpoints, board model selection, a
+single-concurrency demo pipeline, and the AX8860 web dashboard.
+
+Model weights are not distributed with this repository. Deployed models:
+
+  Qwen3.5-2B                 (see upstream model license)
+  MiniCPM-OCR-1.0            (see upstream model license)
+  MiniCPM-V-4.7-35B-A3B      (see upstream model license)
+
+Runtime components:
+
+  AXERA Model Manager / llama.cpp / ggml-axera
+  (see the corresponding AXERA distribution for licenses)

@@ -1,0 +1,19 @@
+.venv/
+data/
+.env
+.env.local
+*.egg-info/
+.pytest_cache/
+*.pyc
+__pycache__/
+.DS_Store
+vendor/
+vendor-unused/
+node_modules/
+# package-lock.json 需要提交以固定依赖版本
+reports/demo/*.json
+# 生成的演示页内嵌真实照片，绝不入库
+reports/demo/qa-demo.html
+
+# SQLite 临时文件
+desktop/sample-data/*.sqlite-*
